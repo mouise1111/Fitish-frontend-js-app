@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Statistics</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/stat.css" />
+    <link rel="icon" href="../Assets/svg/webIcon.svg" type="image/icon type" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.js"
+      integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Playfair+Display+SC&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+      integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="headcontainer">
+        <h1>FITish</h1>
+        <div class="container-header-logos">
+          <a href="../index.html"
+            ><img src="../Assets/svg/home.svg" alt=""
+          /></a>
+          <a href="../html/plan.html">
+            <img src="../Assets/svg/plan.svg" alt=""
+          /></a>
+          <a href="../html/stat.html"
+            ><img src="../Assets/svg/stats.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <canvas
+        id="myChart"
+        width="400"
+        height="150"
+        style="margin-top: 20px"
+      ></canvas>
+      <p
+        id="total"
+        style="text-align: center; font-size: 2em; margin-top: 5px"
+      ></p>
+    </main>
+    <script src="../js/animate.js"></script>
+    <script src="../js/stat.js"></script>
+  </body>
+</html>
