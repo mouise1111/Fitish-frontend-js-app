@@ -59,6 +59,9 @@ p {
   list-style: square;
 }
 
+#ul-ingredients:hover {
+  cursor: pointer;
+}
 .directions-p {
   width: 500px;
   margin: 10px;
