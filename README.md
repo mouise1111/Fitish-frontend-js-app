@@ -5,9 +5,9 @@
 
   <h2>How to Use</h2>
   <p>To get started with FITish, simply click the link below to access the application.</p>
-  <p><a href="link to the application">Visit FITish</a></p>
+  <p><a href="https://ehb-ti.github.io/dynamicweb-eindwerkstuk-mouise1111/https://github.com/mouise1111/Fitish-frontend-js-app/commit/819d2b33824c1924b606ecfe82adc1c632b159b6">Visit FITish</a></p>
 
-  <p>Additionally, you can check out the Figma wireframe created for this project to get a visual overview of the application's design and layout. <a href="link to Figma wireframe">Here</a></p>
+  <p>Additionally, you can check out the Figma wireframe created for this project to get a visual overview of the application's design and layout. <a href="https://www.figma.com/file/mWg7TJ1Faf0fYVxNrQtHMq/FITish?node-id=19%3A53">Here</a></p>
 
   <h2>Dependencies</h2>
   <p>The following libraries were used in the development of FITish:</p>
